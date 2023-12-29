@@ -1,0 +1,58 @@
+.page_container {
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.maintext {
+  font-size: 18px;
+  padding: 12px;
+}
+.title {
+  color: rgb(9, 9, 9);
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.container,.form {
+  flex: 1;
+}
+
+.inputTextField,
+.select,
+.textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  height: 50px;
+}
+
+.inputSubmit {
+  background-color: #71b775;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.inputSubmit:hover {
+  background-color: #45a049;
+}
+
+.container,.map {
+  padding: 12px;
+  margin-left: 20px;
+  flex: 1;
+}
+
